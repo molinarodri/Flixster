@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         rvMovies.setLayoutManager(new LinearLayoutManager(this));
 
         AsyncHttpClient client = new AsyncHttpClient();
+
         // make a get request on the URL to get currently playing movies
         client.get(NOW_PLAYING_URL, new JsonHttpResponseHandler() {
             @Override
