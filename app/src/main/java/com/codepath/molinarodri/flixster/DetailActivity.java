@@ -20,7 +20,7 @@ import org.parceler.Parcels;
 import okhttp3.Headers;
 
 public class DetailActivity extends YouTubeBaseActivity {
-    private static final String YOUTUBE_API_KEY = "AIzaSyAHpKACyrPHDXX1CXmkAhjnJLapTc_Z888";
+    private static final String YOUTUBE_API_KEY = "AIzaSyDbWBgoB7Dvd1lfwy0bcQlfCi0XDPCoBIs";
     private static final String VIDEOS_URL = "https://api.themoviedb.org/3/movie/%d/videos?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed";
     TextView tvTitle;
     TextView tvOverview;
