@@ -69,7 +69,7 @@ public class DetailActivity extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
                 Log.d("DetailActivity", "onsuccess");
-                youTubePlayer.cueVideo("youtubeKey");
+                youTubePlayer.cueVideo(youtubeKey);
             }
 
             @Override
